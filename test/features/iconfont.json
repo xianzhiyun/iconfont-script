@@ -1,0 +1,177 @@
+{
+  "id": "1654297",
+  "name": "VT  UI侧导航图标-实底",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "13930878",
+      "name": "wuliaoguanli",
+      "font_class": "wuliaoguanli",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "13929935",
+      "name": "gongnengquanxian",
+      "font_class": "gongnengquanxian",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "13929420",
+      "name": "shouye",
+      "font_class": "shouye",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "13929421",
+      "name": "zidianguanli",
+      "font_class": "zidianguanli",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "13929422",
+      "name": "wenjianguanli",
+      "font_class": "wenjianguanli",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "13929423",
+      "name": "yonghuguanli",
+      "font_class": "yonghuguanli",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "13929424",
+      "name": "kehuguanli",
+      "font_class": "kehuguanli",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "13929425",
+      "name": "quanxianguanli",
+      "font_class": "quanxianguanli",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "13649379",
+      "name": "qiyebiaoshi-40",
+      "font_class": "qiyebiaoshi-",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "13509111",
+      "name": "mima",
+      "font_class": "mima",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "13507936",
+      "name": "honghuming",
+      "font_class": "honghuming",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "13161850",
+      "name": "SPCfenxi",
+      "font_class": "SPCfenxi",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "13161852",
+      "name": "shengchangongdan",
+      "font_class": "shengchangongdan",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "13161854",
+      "name": "jichupeizhi",
+      "font_class": "jichupeizhi",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "13161855",
+      "name": "gongyiguanli",
+      "font_class": "gongyiguanli",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "13161861",
+      "name": "jiaozhunguanli",
+      "font_class": "jiaozhunguanli",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "13161862",
+      "name": "dianjianguanli",
+      "font_class": "dianjianguanli",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "13161870",
+      "name": "chengxuguanli",
+      "font_class": "chengxuguanli",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "13161872",
+      "name": "shebeiguanli",
+      "font_class": "shebeiguanli",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "13161881",
+      "name": "jichuxinxi",
+      "font_class": "jichuxinxi",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "13161882",
+      "name": "wenjianjia",
+      "font_class": "wenjianjia",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "13161883",
+      "name": "xitongguanli",
+      "font_class": "xitongguanli",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "13161884",
+      "name": "tongjizhongxin",
+      "font_class": "tongjizhongxin",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "13161886",
+      "name": "shebeijiankong",
+      "font_class": "shebeijiankong",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    }
+  ]
+}
