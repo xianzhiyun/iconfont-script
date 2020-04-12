@@ -8,10 +8,16 @@
   "author": "张乐",
   "homepage": "git@github.com:xianzhiyun/iconfont-script.git",
   "keywords": [
+    "iconfont",
+    "icon",
+    "font",
+    "svg",
+    "iconfont-",
+    "iconfont-script",
+    "script",
     "tools",
     "javascript",
-    "library",
-    "iconfont"
+    "library"
   ],
   "scripts": {
     "dev:build": "rollup -c -w",
