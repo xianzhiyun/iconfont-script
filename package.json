@@ -7,18 +7,6 @@
   "browser": "dist/iconfont.umd.js",
   "author": "张乐",
   "homepage": "git@github.com:xianzhiyun/iconfont-script.git",
-  "keywords": [
-    "iconfont",
-    "icon",
-    "font",
-    "svg",
-    "iconfont-",
-    "iconfont-script",
-    "script",
-    "tools",
-    "javascript",
-    "library"
-  ],
   "scripts": {
     "dev:build": "rollup -c -w",
     "dev:start": "nodemon node test/index.js",
@@ -62,5 +50,29 @@
       "features"
     ],
     "delay": "2500"
-  }
+  },
+  "keywords": [
+    "iconfont",
+    "webfont",
+    "icon",
+    "font",
+    "svg",
+    "iconfont-script",
+    "script",
+    "tools",
+    "javascript",
+    "library"
+  ],
+  "tags": [
+    "iconfont",
+    "webfont",
+    "icon",
+    "font",
+    "svg",
+    "iconfont-script",
+    "script",
+    "tools",
+    "javascript",
+    "library"
+  ]
 }
