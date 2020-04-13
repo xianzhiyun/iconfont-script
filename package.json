@@ -1,7 +1,7 @@
 {
   "name": "iconfont-script",
   "version": "1.0.0",
-  "description": "iconfont-script 实现下载iconfont网站zip文件，并解压指定目录，避免项目开发前期繁琐操作",
+  "description": "iconfont script 实现下载iconfont网站zip文件，并解压指定目录，避免项目开发前期繁琐操作",
   "main": "dist/iconfont.cjs.js",
   "module": "dist/iconfont.esm.js",
   "browser": "dist/iconfont.umd.js",
@@ -53,6 +53,10 @@
   },
   "keywords": [
     "iconfont",
+    "iconfont-",
+    "iconfont-s",
+    "iconfont-scr",
+    "iconfont-script",
     "webfont",
     "icon",
     "font",
@@ -65,6 +69,10 @@
   ],
   "tags": [
     "iconfont",
+    "iconfont-",
+    "iconfont-s",
+    "iconfont-scr",
+    "iconfont-script",
     "webfont",
     "icon",
     "font",
