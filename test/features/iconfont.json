@@ -1,0 +1,30 @@
+{
+  "id": "724179",
+  "name": "Trval",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "469122",
+      "name": "返回",
+      "font_class": "back",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "2304470",
+      "name": "向下箭头",
+      "font_class": "jiantou-",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "2775500",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    }
+  ]
+}
