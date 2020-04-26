@@ -77,6 +77,11 @@ deleteFolderRecursive删除文件和文件夹
 
 10. 服务端如何防止网络爬虫，有哪些方式？
 
+##
+```bash
+postversion  自动打标签并发布
+```
+
 ## 更多推荐
 
 [记一次node爬虫经历，手把手教你爬虫](https://www.cnblogs.com/scottjeremy/p/11961190.html)
