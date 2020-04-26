@@ -24,7 +24,6 @@ jobs:
       script:
         - echo "NPM Deploying Started ..."
         - npm version
-        - npm run build
         - echo "NPM Building Finished."
 
       deploy:
