@@ -17,7 +17,7 @@ jobs:
       script:
         - node --version
         - npm --version
-        - echo "Testing Started ...1"
+        - echo "Testing Started ..."
         - npm test
         - echo "Testing Finished."
 
@@ -26,6 +26,7 @@ jobs:
         - echo "NPM Deploying Started ..."
         - npm version
         - npm run build
+        - npm publish
         - echo "NPM Building Finished."
 
       deploy:
@@ -34,4 +35,4 @@ jobs:
         api_key: "$NPM_TOKEN"
         skip_cleanup: true
         on:
-          all_branches: true
+          branch: master
