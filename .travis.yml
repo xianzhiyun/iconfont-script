@@ -26,7 +26,6 @@ jobs:
         - echo "NPM Deploying Started ..."
         - npm version
         - npm run build
-        - npm publish
         - echo "NPM Building Finished."
 
       deploy:
