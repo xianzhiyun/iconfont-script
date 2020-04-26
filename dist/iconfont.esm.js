@@ -70,9 +70,6 @@ class Iconfont {
                 fs.unlinkSync(path);
             }
         }
-    },
-    replaceString(toPath, str){
-
     }
 
 }
