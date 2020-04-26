@@ -11,9 +11,7 @@
     "dev:build": "rollup -c -w",
     "dev:start": "nodemon node test/index.js",
     "dev": "concurrently npm:dev:*",
-    "test": "node test/index.js",
-    "build": "cross-env NODE_ENV=production rollup -c",
-    "pretest": "npm run build"
+    "build": "cross-env NODE_ENV=production rollup -c"
   },
   "dependencies": {
     "compressing": "^1.5.0",
