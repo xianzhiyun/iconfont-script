@@ -86,3 +86,7 @@ deleteFolderRecursive删除文件和文件夹
 [nodejs中文网](http://nodejs.cn/api/)
 [Node. js 不深也不浅得了解下编码](https://segmentfault.com/a/1190000002787763)
 [https://blog.csdn.net/flytam/article/details/104741412](https://blog.csdn.net/flytam/article/details/104741412)
+[https://www.cnblogs.com/star91/p/ji-yutravis-hegit-tag-shi-xiannpm-zi-dong-hua-fa-b.html](https://www.cnblogs.com/star91/p/ji-yutravis-hegit-tag-shi-xiannpm-zi-dong-hua-fa-b.html)
+[https://cloud.tencent.com/developer/article/1506532](https://cloud.tencent.com/developer/article/1506532)
+[https://www.lisa33xiaoq.net/945.html](https://www.lisa33xiaoq.net/945.html)
+[https://blog.csdn.net/weixin_30909575/article/details/97745756](https://blog.csdn.net/weixin_30909575/article/details/97745756)
