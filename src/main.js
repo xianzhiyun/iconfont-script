@@ -1,6 +1,6 @@
 import { Iconfont } from './iconfont';
 
-console.log('测试024')
+console.log('测试026')
 export {
 	Iconfont
 }
