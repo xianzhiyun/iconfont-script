@@ -28,6 +28,6 @@ jobs:
         provider: npm
         email: Oliver_web@163.com
         api_token: "$NPM_TOKEN"
-        skip_cleanup: true
+        cleanup: true
         on:
           all_branches: true
