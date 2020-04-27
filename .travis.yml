@@ -1,15 +1,33 @@
 language: node_js
 node_js:
   - "stable"
-cache:
-  directories:
-  - node_modules
-env:
-  - CI=true
-deploy:
-  provider: npm
-  email: Oliver_web@163.com
-  api_token: "$NPM_TOKEN"
-  cleanup: true
-  on:
-    all_branches: true
+install:
+  - npm install
+
+stages:
+  - test
+  - name: deploy
+
+jobs:
+  include:
+    - stage: test
+      script:
+        - node --version
+        - npm --version
+        - echo "Testing Started ..."
+        - npm test
+        - echo "Testing Finished."
+
+    - stage: deploy
+      script:
+        - echo "NPM Deploying Started ..."
+        - npm version
+        - echo "NPM Building Finished."
+
+      deploy:
+        provider: npm
+        email: Oliver_web@163.com
+        api_token: "$NPM_TOKEN"
+        skip_cleanup: true
+        on:
+          all_branches: true
