@@ -1,6 +1,6 @@
 {
   "name": "iconfont-script",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "iconfont script 实现下载iconfont网站zip文件，并解压指定目录，避免项目开发前期繁琐操作",
   "main": "dist/iconfont.cjs.js",
   "module": "dist/iconfont.esm.js",
