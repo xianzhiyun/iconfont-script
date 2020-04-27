@@ -12,4 +12,4 @@ deploy:
   api_token: "$NPM_TOKEN"
   cleanup: true
   on:
-    all_branches: true
+    branch: master
