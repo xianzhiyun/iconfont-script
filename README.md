@@ -1,5 +1,5 @@
 # iconfont-script
-[](https://www.npmjs.com/package/iconfont-script)
+[iconfont-script](https://www.npmjs.com/package/iconfont-script)
 
 ## 简介
 
@@ -59,22 +59,19 @@ deleteFolderRecursive删除文件和文件夹
 * Buffer
   + JavaScript 语言自身只有字符串数据类型，没有二进制数据类型。定义了一个 Buffer 类，该类用来创建一个专门存放二进制数据的缓存区。
 
-* 
-
 ## 最后
 
 ## 面试题
 
-1\. request中 \*encoding：null\*  \*headers中User-Agent\*？
-2\. Buffer、Uint8Array、base64编码、Blob 这几个常用概念理解，什么场景先使用？
-3\. 浅谈CSRF、SSRF理解？
-4\. call、applay、bind应用？
-5\. 在webpack中经常看到path\. join和path\. resolve区别是什么？
-6\. 使用fs的同步方法，javascript 宏任务与微任务的解读eventLoop？
-7\. 浏览器端和服务端如何实现一个文件上传和下载，如何实现大文件上传？
-8\. forEach、map、for 循环过程中异步等待（async, await）有什么不同？
-9\. 递归实现有几种方式，项目开发过程中哪些场景使用？
-
+1. request中 encoding：null headers中User-Agent？
+2. Buffer、Uint8Array、base64编码、Blob 这几个常用概念理解，什么场景先使用？
+3. 浅谈CSRF、SSRF理解？
+4. call、apply、bind应用？
+5. 在webpack中经常看到path.join和path.resolve区别是什么？
+6. 使用fs的同步方法，javascript 宏任务与微任务的解读eventLoop？
+7. 浏览器端和服务端如何实现一个文件上传和下载，如何实现大文件上传？
+8. forEach、map、for 循环过程中异步等待（async, await）有什么不同？
+9. 递归实现有几种方式，项目开发过程中哪些场景使用？
 10. 服务端如何防止网络爬虫，有哪些方式？
 
 ##
@@ -86,15 +83,11 @@ postversion  自动打标签并发布
 
 [记一次node爬虫经历，手把手教你爬虫](https://www.cnblogs.com/scottjeremy/p/11961190.html)
 
-## 参考
+## 参考资料
 
 [nodejs中文网](http://nodejs.cn/api/)
 [Node. js 不深也不浅得了解下编码](https://segmentfault.com/a/1190000002787763)
-[https://blog.csdn.net/flytam/article/details/104741412](https://blog.csdn.net/flytam/article/details/104741412)
-[https://www.cnblogs.com/star91/p/ji-yutravis-hegit-tag-shi-xiannpm-zi-dong-hua-fa-b.html](https://www.cnblogs.com/star91/p/ji-yutravis-hegit-tag-shi-xiannpm-zi-dong-hua-fa-b.html)
-[https://cloud.tencent.com/developer/article/1506532](https://cloud.tencent.com/developer/article/1506532)
-[https://www.lisa33xiaoq.net/945.html](https://www.lisa33xiaoq.net/945.html)
-[https://blog.csdn.net/weixin_30909575/article/details/97745756](https://blog.csdn.net/weixin_30909575/article/details/97745756)
-[https://juejin.im/post/5ab39fedf265da23a04979cb](https://juejin.im/post/5ab39fedf265da23a04979cb)
-
-测试通过了自动发包
+[都 2020 年了，你还在手动发布 npm 包吗](https://blog.csdn.net/flytam/article/details/104741412)
+[持续集成（Travis CI）运行流程详解](https://www.lisa33xiaoq.net/945.html)
+[基于travis和git tag 实现npm自动化发版](https://blog.csdn.net/weixin_30909575/article/details/97745756)
+[使用 Travis CI 自动发布 npm](https://juejin.im/post/5ab39fedf265da23a04979cb)
