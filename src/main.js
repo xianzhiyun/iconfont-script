@@ -1,5 +1,6 @@
-import { Iconfont } from './iconfont';
+import {Iconfont, iconfontScript} from './iconfont';
 
 export {
-	Iconfont
+    Iconfont,
+    iconfontScript
 }
