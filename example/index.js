@@ -5,11 +5,11 @@ const iconConfig = {
         list: [
             {
                 url: 'https://www.iconfont.cn/api/project/download.zip?spm=a313x.7781069.1998910419.d7543c303&pid=724179&ctoken=19DKMjRBi14qCZ3dibnLdK5n',
-                toPath: path.join(__dirname, './features')
+                toPath: path.join(__dirname, '../iconfont-file/features')
             },
             {
                 url: 'https://www.iconfont.cn/api/project/download.zip?spm=a313x.7781069.1998910419.d7543c303&pid=724179&ctoken=19DKMjRBi14qCZ3dibnLdK5n',
-                toPath: path.join(__dirname, './menu'),
+                toPath: path.join(__dirname, './iconfont-file/menu'),
                 replaceName: 'iconfont-menu',
             }
         ]
