@@ -35,40 +35,6 @@
     ;(async () => {
         await iconfontScript(iconConfig)
     })()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     ```
 ## 实现思路
 
