@@ -7,9 +7,9 @@
 > 有新的图标就要到iconfont网站进行下载加压到本地，是不是感觉这样很不爽？
 
 
-### 安装
-    npm install iconfont-script -
-### 使用
+## 安装
+    npm install iconfont-script
+## 使用
     ```javascript
     /**
      * @author 🌈先知云 <zhangle@vtstar.net>
