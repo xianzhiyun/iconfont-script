@@ -2501,6 +2501,7 @@
               }); //  当项目中需要引入两个iconfont ，其中一个iconfont需要进行修改，处理修改 iconfont名称
 
               _loop = /*#__PURE__*/regenerator.mark(function _loop(i) {
+                var updateFilePath;
                 return regenerator.wrap(function _loop$(_context3) {
                   while (1) {
                     switch (_context3.prev = _context3.next) {
@@ -2509,16 +2510,18 @@
                         return new Iconfont(iconfontConfig_list[i]).handleProcess();
 
                       case 2:
+                        updateFilePath = "".concat(iconfontConfig_list[i].toPath, "/iconfont.css");
+
                         if (iconfontConfig_list[i].replaceName) {
-                          fs.readFile('./menu/iconfont.css', 'utf-8', function (error, data) {
+                          fs.readFile(updateFilePath, 'utf-8', function (error, data) {
                             //  用error来判断文件是否读取成功
                             if (error) return console.log('读取文件失败,内容是' + error.message);
                             var res = data.replace(/("iconfont")/g, "\"".concat(iconfontConfig_list[i].replaceName, "\"")).replace(/\.iconfont/g, ".".concat(iconfontConfig_list[i].replaceName));
-                            fs.writeFileSync('./menu/iconfont.css', res);
+                            fs.writeFileSync(updateFilePath, res);
                           });
                         }
 
-                      case 3:
+                      case 4:
                       case "end":
                         return _context3.stop();
                     }
