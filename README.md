@@ -7,11 +7,69 @@
 > 有新的图标就要到iconfont网站进行下载加压到本地，是不是感觉这样很不爽？
 
 
-## 使用
-
 ### 安装
     npm install iconfont-script -
+### 使用
+    ```javascript
+    /**
+     * @author 🌈先知云 <zhangle@vtstar.net>
+     * @date ⌚2020-05-18
+     * @desc 📝 下载远程iconfont 内容
+     */
+    const path = require('path')
+    const {iconfontScript} = require('iconfont-script');
+    const iconConfig = {
+        cookie: 'xxxx',
+        list: [
+            {
+                url: 'https://www.iconfont.cn/api/project/download.zip?spm=a313x.7781069.1998910419.d7543c303&pid=724179&ctoken=19DKMjRBi14qCZ3dibnLdK5n',
+                toPath: path.join(__dirname, '../src/assets/iconfont/features')
+            },
+            {
+                url: 'https://www.iconfont.cn/api/project/download.zip?spm=a313x.7781069.1998910419.d7543c303&pid=724179&ctoken=19DKMjRBi14qCZ3dibnLdK5n',
+                toPath: path.join(__dirname, '../src/assets/iconfont/menu'),
+                replaceName: 'iconfont-menu',
+            }
+        ]
+    }
+    ;(async () => {
+        await iconfontScript(iconConfig)
+    })()
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ```
 ## 实现思路
 
 1\. 获取buffer
